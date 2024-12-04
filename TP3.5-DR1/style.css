@@ -1,0 +1,32 @@
+/* Estilo padrão */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  text-align: center;
+}
+
+/* celular */
+@media screen and (max-width: 768px) {
+  body {
+    background-color: blue;
+  }
+}
+
+/* tablet */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  body {
+    background-color: green;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1025px) {
+  body {
+    background-color: red;
+  }
+}

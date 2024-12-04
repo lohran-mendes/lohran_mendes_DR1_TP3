@@ -1,0 +1,25 @@
+body {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+
+}
+
+td,
+th,
+table 
+{
+  border: 1px solid black;
+  padding: 10px;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+#table-title {
+  color: rgb(216, 4, 4);
+  text-transform: uppercase;
+}
+th {
+  background-color: rgba(127, 225, 255, 0.514);
+}
