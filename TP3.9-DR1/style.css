@@ -1,0 +1,30 @@
+li:hover { 
+  text-decoration: underline;
+}
+li a {
+  text-decoration: none;
+  color: black;
+}
+li:nth-child(1) {
+  color: blue;
+  & a {
+    color: blue;
+  }
+}
+li:nth-child(3), li:nth-child(5) {
+  color: red;
+  font-weight: bolder;
+  & a {
+    color: red;
+    font-weight: bolder;
+  }
+}
+li:nth-child(6) {
+  font-style: italic;
+}
+li:nth-last-child(1) {
+  color: green;
+  & a {
+    color: green;
+  }
+}
